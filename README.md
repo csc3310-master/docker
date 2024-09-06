@@ -20,8 +20,8 @@
 
 ## Compilers and Interpreters
 It will be up to you to install the required tools for this class:
-* (Prolog)[https://www.swi-prolog.org/]
-* (Scheme)[https://www.gnu.org/software/mit-scheme/]
-* (Go)[https://go.dev/]
+* [Prolog](https://www.swi-prolog.org/)
+* [Scheme](https://www.gnu.org/software/mit-scheme/)
+* [Go](https://go.dev/)
 
 
