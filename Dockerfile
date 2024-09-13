@@ -1,5 +1,5 @@
 FROM ubuntu:24.10
-LABEL "author"="Carlos R. Arias"
+LABEL "author"="Carlos R. Arias A"
 ARG user=student
 
 # Install all required packages for 
