@@ -11,7 +11,7 @@
 2. Move to the directory where you cloned this repo
 3. Run the following command: `docker build --build-arg user=cpl -t cpl .`
 4. Run the command `docker images` to see the list of images, copy the number of the image you just created
-5. Run the following command: `docker run --name=cpl -v /Users/arias/development/ -p 222:22 -i -t ed5ea8f5c3e7 /bin/bash` Note: the `ed5ea8f5c3e7` should be replaced by _your_ image number.
+5. Run the following command: `docker run --name=cpl -v /Users/arias/development:/development -p 222:22 -i -t ed5ea8f5c3e7 /bin/bash` Note: the `ed5ea8f5c3e7` should be replaced by _your_ image number, also `/User/arias/development` should be replaced by _your_ development directory path.
 6. The last command will open a terminal of your container running. You can run the command `exit` to close that shell.
 
 ## Running your container
